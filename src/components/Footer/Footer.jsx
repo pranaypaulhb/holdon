@@ -17,6 +17,9 @@ const socials = [
   { label: 'Twitter',  href: '#', icon: '𝕏' },
   { label: 'LinkedIn', href: '#', icon: 'in' },
   { label: 'GitHub',   href: '#', icon: '⌥' },
+  { label: 'Twitter',  href: '#', icon: '𝕏' },
+  { label: 'LinkedIn', href: '#', icon: 'in' },
+  { label: 'GitHub',   href: '#', icon: '⌥' },
 ]
 
 export default function Footer() {
