@@ -33,7 +33,7 @@ export default function About() {
             to their goals, memories, and connections.
           </p>
           <p className={styles.body}>
-            Since 2023 we have served over 10,000 users across 40+ countries,
+            Since 2023, we have served over 10,000 users across 40+ countries,
             building a product that is thoughtful, fast, and genuinely useful.
           </p>
           <div className={styles.pillars}>

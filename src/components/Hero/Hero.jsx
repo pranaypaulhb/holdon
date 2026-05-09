@@ -16,7 +16,7 @@ export default function Hero() {
             <span className={styles.highlight}>What Matters</span>
           </h1>
           <p className={styles.subheading}>
-            HoldOn helps you organise, prioritise, and stay connected with the
+            HoldOn helps you organize, prioritize, and stay connected with the
             things that truly matter — from life goals to daily habits.
           </p>
           <div className={styles.actions}>

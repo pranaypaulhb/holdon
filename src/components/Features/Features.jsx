@@ -14,7 +14,7 @@ const features = [
   {
     icon: '📊',
     title: 'Insightful Analytics',
-    desc: 'Visualise your progress with beautiful charts and meaningful metrics that motivate you daily.',
+    desc: 'Visualize your progress with beautiful charts and meaningful metrics that motivate you daily.',
   },
   {
     icon: '🤝',
@@ -41,7 +41,7 @@ export default function Features() {
           <span className="section-tag">Features</span>
           <h2 className="section-title">Everything You Need to Succeed</h2>
           <p className="section-subtitle">
-            Powerful tools that help you stay focused, organised, and motivated —
+            Powerful tools that help you stay focused, organized, and motivated —
             all in one beautifully simple app.
           </p>
         </div>
