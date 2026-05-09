@@ -1,0 +1,103 @@
+.section {
+  padding-block: var(--section-py);
+  background: var(--clr-bg);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+/* Image */
+.imgWrap {
+  position: relative;
+}
+.imgPlaceholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--clr-primary-light) 0%, #fce4ec 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+.imgEmoji {
+  font-size: 7rem;
+  animation: float 4s ease-in-out infinite;
+}
+.badge {
+  position: absolute;
+  bottom: -1.25rem;
+  right: -1.25rem;
+  background: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: .75rem 1.25rem;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+/* Content */
+.title {
+  text-align: left;
+  margin-inline: 0;
+}
+
+.body {
+  color: var(--clr-text-muted);
+  margin-bottom: 1.25rem;
+  line-height: 1.8;
+}
+
+.pillars {
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+  margin-bottom: 2rem;
+}
+.pillar {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  font-size: var(--text-base);
+  font-weight: 500;
+}
+.pillarIcon {
+  font-size: 1.25rem;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  padding: .875rem 2rem;
+  border-radius: var(--radius);
+  background: var(--clr-primary);
+  color: #fff;
+  font-weight: 700;
+  transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+  box-shadow: 0 4px 20px rgba(108,99,255,.3);
+}
+.cta:hover {
+  background: var(--clr-primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(108,99,255,.4);
+}
+
+@media (max-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  .title { text-align: center; }
+  .body { text-align: center; }
+  .pillars { align-items: center; }
+  .cta { display: block; text-align: center; }
+  .badge { right: 0; }
+}
