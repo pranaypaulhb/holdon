@@ -13,11 +13,11 @@ const legal = [
   { label: 'Cookie Policy', href: '#' },
     { label: 'Privacy Policy', href: '#' },
   { label: 'Terms of Service', href: '#' },
-  { label: 'Cookie Policy', href: '#' },
-    { label: 'Privacy Policy', href: '#' },
+  { label: 'Terms of Service', href: '#' },
+    { label: 'Terms of Service', href: '#' },
   { label: 'Terms of Service', href: '#' },
   { label: 'Cookie Policy', href: '#' },
-  
+
 ]
 
 const socials = [
