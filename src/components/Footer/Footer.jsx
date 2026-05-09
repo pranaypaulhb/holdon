@@ -20,6 +20,9 @@ const socials = [
   { label: 'Twitter',  href: '#', icon: '𝕏' },
   { label: 'LinkedIn', href: '#', icon: 'in' },
   { label: 'GitHub',   href: '#', icon: '⌥' },
+    { label: 'Terms of Service', href: '#' },
+  { label: 'Cookie Policy', href: '#' },
+  { label: 'Terms of Service', href: '#' },
 ]
 
 export default function Footer() {
