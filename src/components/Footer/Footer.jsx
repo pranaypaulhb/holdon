@@ -21,7 +21,7 @@ const legal = [
   { label: 'Terms of Service', href: '#' },
   { label: 'Terms of Service', href: '#' },
   { label: 'Cookie Policy', href: '#' },
-  { label: 'Terms of Service 12345 11', href: '#' },
+  { label: 'Terms of Service 12345 4567 11', href: '#' },
 
 ]
 
